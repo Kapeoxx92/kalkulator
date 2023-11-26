@@ -1,9 +1,21 @@
-﻿namespace kalkulator
+namespace kalkulator
 {
     partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
+        public string Bufor1;
+        public string Bufor2;
+
+        public int number1;
+        public int number2;
+        public int wynik = 0;
+
+        public bool flaga = false;
+        public bool czy_bufor_pusty = true;
+
+        public int dzialanie; // dodawanie = 1, odejmowanie = 2, dzielenie = 3, mnożenie = 4
+
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
