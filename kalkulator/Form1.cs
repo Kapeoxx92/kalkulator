@@ -106,7 +106,7 @@ namespace kalkulator
                 case "8":
                     if (!flaga)
                     {
-                        textBox1.Text += "1";
+                        textBox1.Text += "8";
                     }
                     else
                     {
@@ -139,27 +139,6 @@ namespace kalkulator
                         flaga = false;
                     }
                     break;
-                case "-":
-                    //textBox1.Text += "-";
-                    if (czy_bufor_pusty)
-                    {
-                        Bufor1 = textBox1.Text;
-                        dzialanie = 2;
-                        number1 = Int32.Parse(Bufor1);
-                        flaga = true;
-                        czy_bufor_pusty = false;
-                        //MessageBox.Show("Odejmowanie");
-                        //Console.WriteLine(Bufor1);
-                        //textBox1.Text = Bufor1;
-                    }
-                    else
-                    {
-                        //wynik = number1 - number2;
-
-
-
-                    }
-                    break;
                 case "+":
                     if (czy_bufor_pusty)
                     {
@@ -172,12 +151,19 @@ namespace kalkulator
                         //Console.WriteLine(Bufor1);
                         //textBox1.Text = Bufor1;
                     }
-                    else
+                    break;
+                case "-":
+                    //textBox1.Text += "-";
+                    if (czy_bufor_pusty)
                     {
-                        //wynik = number1 + number2;
-
-
-
+                        Bufor1 = textBox1.Text;
+                        dzialanie = 2;
+                        number1 = Int32.Parse(Bufor1);
+                        flaga = true;
+                        czy_bufor_pusty = false;
+                        //MessageBox.Show("Odejmowanie");
+                        //Console.WriteLine(Bufor1);
+                        //textBox1.Text = Bufor1;
                     }
                     break;
                 case "*":
@@ -199,13 +185,6 @@ namespace kalkulator
                         //Console.WriteLine(Bufor1);
                         //textBox1.Text = Bufor1;
                     }
-                    else
-                    {
-                        //wynik = number1 * number2;
-
-
-
-                    }
                     break;
                 case "/":
                     if (czy_bufor_pusty)
@@ -219,28 +198,45 @@ namespace kalkulator
                         //Console.WriteLine(Bufor1);
                         //textBox1.Text = Bufor1;
                     }
-                    else
-                    {
-                        //wynik = number1 / number2;
-
-
-
-                    }
                     break;
                 case "=":
+                    Bufor2 = textBox1.Text;
+                    number2 = Int32.Parse(Bufor2);
+                    string wynik_teskt;
                     switch (dzialanie)
                     {
                         case 1:
-                            //wynik = number1 + number2;
+                            wynik = number1 + number2;
                             //wynik = 4;
-                            string wynik_teskt = wynik.ToString();
+                            wynik_teskt = wynik.ToString();
                             //zamiana int na string
                             textBox1.Text = wynik_teskt;
                             break;
                         case 2:
-
+                            wynik = number1 - number2;
+                            //wynik = 4;
+                            wynik_teskt = wynik.ToString();
+                            //zamiana int na string
+                            textBox1.Text = wynik_teskt;
+                            break;
+                        case 3:
+                            wynik = number1 / number2;
+                            //wynik = 4;
+                            wynik_teskt = wynik.ToString();
+                            //zamiana int na string
+                            textBox1.Text = wynik_teskt;
+                            break;
+                        case 4:
+                            wynik = number1 * number2;
+                            //wynik = 4;
+                            wynik_teskt = wynik.ToString();
+                            //zamiana int na string
+                            textBox1.Text = wynik_teskt;
                             break;
                     }
+                    //number1 = wynik;
+                    flaga = true;
+                    czy_bufor_pusty = true;
 
                     break;
                     //break;
@@ -249,24 +245,19 @@ namespace kalkulator
             //}
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void clear_button_Click(object sender, EventArgs e)
         {
+            Bufor1 = "";
+            Bufor2 = "";
+            number1 = 0;
+            number2 = 0;
+            flaga = false;
+            czy_bufor_pusty = true;
+            //textBox1.Text = "";
+            textBox1.Text = null;
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

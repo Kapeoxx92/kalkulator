@@ -54,7 +54,7 @@ namespace kalkulator
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
-            button4 = new Button();
+            clear_button = new Button();
             button5 = new Button();
             button9 = new Button();
             button12 = new Button();
@@ -77,7 +77,7 @@ namespace kalkulator
             tableLayoutPanel1.Controls.Add(button14, 3, 2);
             tableLayoutPanel1.Controls.Add(button15, 3, 3);
             tableLayoutPanel1.Controls.Add(button16, 2, 3);
-            tableLayoutPanel1.Controls.Add(button4, 0, 4);
+            tableLayoutPanel1.Controls.Add(clear_button, 0, 4);
             tableLayoutPanel1.Controls.Add(button5, 1, 4);
             tableLayoutPanel1.Controls.Add(button9, 2, 4);
             tableLayoutPanel1.Controls.Add(button12, 3, 4);
@@ -169,12 +169,12 @@ namespace kalkulator
             button16.UseVisualStyleBackColor = true;
             button16.Click += button_Click;
             // 
-            // button4
+            // clear_button
             // 
-            resources.ApplyResources(button4, "button4");
-            button4.Name = "button4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button_Click;
+            resources.ApplyResources(clear_button, "clear_button");
+            clear_button.Name = "clear_button";
+            clear_button.UseVisualStyleBackColor = true;
+            clear_button.Click += clear_button_Click;
             // 
             // button5
             // 
@@ -230,7 +230,7 @@ namespace kalkulator
         private Button button14;
         private Button button15;
         private Button button16;
-        private Button button4;
+        private Button clear_button;
         private Button button5;
         private Button button9;
         private Button button12;

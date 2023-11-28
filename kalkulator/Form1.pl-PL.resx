@@ -125,8 +125,15 @@
     <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 493</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>7</value>
@@ -134,8 +141,14 @@
   <data name="button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 282</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>4</value>
@@ -143,8 +156,14 @@
   <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 71</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
     <value>1</value>
@@ -152,8 +171,14 @@
   <data name="button6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 71</value>
+  </data>
+  <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button6.Text" xml:space="preserve">
     <value>2</value>
@@ -161,8 +186,14 @@
   <data name="button7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 282</value>
+  </data>
+  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button7.Text" xml:space="preserve">
     <value>5</value>
@@ -170,8 +201,14 @@
   <data name="button8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 493</value>
+  </data>
+  <data name="button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button8.Text" xml:space="preserve">
     <value>8</value>
@@ -179,8 +216,14 @@
   <data name="button10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 71</value>
+  </data>
+  <data name="button10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button10.Text" xml:space="preserve">
     <value>3</value>
@@ -188,8 +231,14 @@
   <data name="button11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 282</value>
+  </data>
+  <data name="button11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button11.Text" xml:space="preserve">
     <value>6</value>
@@ -197,8 +246,14 @@
   <data name="button13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 71</value>
+  </data>
+  <data name="button13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 152</value>
+    <value>301, 203</value>
   </data>
   <data name="button13.Text" xml:space="preserve">
     <value>+</value>
@@ -206,8 +261,14 @@
   <data name="button14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 282</value>
+  </data>
+  <data name="button14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 152</value>
+    <value>301, 203</value>
   </data>
   <data name="button14.Text" xml:space="preserve">
     <value>-</value>
@@ -215,8 +276,14 @@
   <data name="button15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 493</value>
+  </data>
+  <data name="button15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 152</value>
+    <value>301, 203</value>
   </data>
   <data name="button15.Text" xml:space="preserve">
     <value>*</value>
@@ -224,26 +291,48 @@
   <data name="button16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 493</value>
+  </data>
+  <data name="button16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 152</value>
+    <value>299, 203</value>
   </data>
   <data name="button16.Text" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="button4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="clear_button.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 155</value>
+  <data name="clear_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 704</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
+  <data name="clear_button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="clear_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 205</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="clear_button.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="clear_button.Text" xml:space="preserve">
     <value>C</value>
   </data>
   <data name="button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 704</value>
+  </data>
+  <data name="button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 155</value>
+    <value>299, 205</value>
   </data>
   <data name="button5.Text" xml:space="preserve">
     <value>0</value>
@@ -251,8 +340,14 @@
   <data name="button9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 704</value>
+  </data>
+  <data name="button9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 155</value>
+    <value>299, 205</value>
   </data>
   <data name="button9.Text" xml:space="preserve">
     <value>=</value>
@@ -260,26 +355,46 @@
   <data name="button12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 704</value>
+  </data>
+  <data name="button12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 155</value>
+    <value>301, 205</value>
   </data>
   <data name="button12.Text" xml:space="preserve">
     <value>/</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1063, 44</value>
+    <value>1214, 57</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1069, 685</value>
+    <value>1222, 913</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1069, 685</value>
+    <value>1222, 913</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
 </root>
